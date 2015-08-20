@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>posts</title>
+
+    <link href="posts.css" rel="stylesheet" />
+    <script src="posts.js"></script>
+</head>
+<body class="posts-page">
+    <div class="post-template" data-win-control="WinJS.Binding.Template">
+        <div class="post-button">
+
+            <div class="image-container" data-win-bind="innerHTML: completedThumb"  onclick="Globals.lightboxing(this)">
+                
+            </div>
+            <!--
+             <div class="image-container">
+                <img data-win-bind="src: img; className: imageLink" onclick="Globals.lightboxing(this)" />
+            </div>
+            -->
+            <div class="text-container" data-win-bind="className: no">
+                <p data-win-bind="innerText: no"></p>
+                <p data-win-bind="innerText: now"></p>
+                <p data-win-bind="innerText: filename"></p>
+                <p><span data-win-bind="innerHTML: com"></span></p>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+
+    </div>
+
+    <div class="posts fragment">
+        <header class="page-header" aria-label="Header content" role="banner">
+           
+            <h1 class="titlearea win-type-ellipsis">
+                <button class="back-button" data-win-control="WinJS.UI.BackButton"></button>
+                <span class="pagetitle">Welcome to posts</span>
+            </h1>
+        </header>
+        <section class="page-section" aria-label="Main content" role="main">
+            <div class="post-container">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+c:\users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bin\Debug\ReverseMap\resources.pri
+c:\users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bin\Debug\AppxManifest.xml
+c:\users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bin\Debug\4chan Blank.build.appxrecipe
+c:\users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bld\Debug\priconfig.xml
+c:\users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bld\Debug\priconfig.xml.intermediate
+c:\users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bld\Debug\layout.resfiles
+c:\users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bld\Debug\layout.resfiles.intermediate
+c:\users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bld\Debug\resources.resfiles
+c:\users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bld\Debug\resources.resfiles.intermediate
+c:\users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bld\Debug\pri.resfiles
+c:\users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bld\Debug\pri.resfiles.intermediate
+c:\users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bld\Debug\qualifiers.txt
+c:\users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bld\Debug\qualifiers.txt.intermediate
+c:\users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bld\Debug\ProjectArchitectures.txt

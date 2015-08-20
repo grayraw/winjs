@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>_4chan_Blank</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- _4chan_Blank references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <!--<link href="/css/featherlight.css" rel="stylesheet" />-->
+    
+    <script src="/js/data.js"></script>
+    <script src="/js/contextmenus.js"></script>
+    <script src="/js/default.js"></script>
+    <script src="/js/navigator.js"></script>
+    <script src="/js/jquery.js"></script>
+</head>
+<body>
+    <div id="save-image" data-win-control="WinJS.UI.Menu">
+        <button data-win-control="WinJS.UI.MenuCommand" data-win-options="{label:'Copy', id: 'menu-copy'}"></button>
+        <button data-win-control="WinJS.UI.MenuCommand" data-win-options="{label:'Save', id:'menu-save'}"></button>
+        <!--<button data-win-control="WinJS.UI.MenuCommand" data-win-options="{label:'Save', type:'button'}"></button>-->
+    </div>
+    <div id="menu-container"></div>
+    <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/home/home.html'}"></div>
+    
+</body>
+</html>

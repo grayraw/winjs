@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>home</title>
+
+    <link href="home.css" rel="stylesheet" />
+    <script src="home.js"></script>
+</head>
+<body>
+
+    <div class="board-template" data-win-control="WinJS.Binding.Template">
+        <div class="board-button">
+            <h1 data-win-bind="innerText: board"></h1>
+            <p data-win-bind="innerText: title"></p>
+            <p data-win-bind="innerHTML: description"></p>
+        </div>
+    </div>
+
+
+    <div class="home fragment">
+        <header class="page-header" aria-label="Header content" role="banner">
+            <button class="back-button" data-win-control="WinJS.UI.BackButton"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Boards</span>
+            </h1>
+        </header>
+        <section class="page-section" aria-label="Main content" role="main">
+            <div class="why-do-I-need-this" data-win-control="WinJS.UI.ListView" data-win-options="{
+                    layout: {type: WinJS.UI.ListLayout},
+                    selectionMode: 'none',
+                    itemDataSource: Globals.boards.dataSource,
+                    itemTemplate: select('.board-template'),
+                    oniteminvoked: Globals.gettingThreads
+                }">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

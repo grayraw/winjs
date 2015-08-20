@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SURFACE</Machine>
+    <WindowsUser>grayr_000</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ea875b85-2df5-4a9c-adf3-5251fc7d2da1</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>37D688903217712EDCD412D16BC56FD0A9D3931E3FE390A03810AC13AFEFCF48</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>ea875b85-2df5-4a9c-adf3-5251fc7d2da1_1.0.0.0_neutral__9psdfhraxvk36</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>ea875b85-2df5-4a9c-adf3-5251fc7d2da1_9psdfhraxvk36!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>ea875b85-2df5-4a9c-adf3-5251fc7d2da1</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=grayr_000</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-19T03:17:48.617</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\css\featherlight.css">
+      <PackagePath>css\featherlight.css</PackagePath>
+      <Modified>2015-07-31T02:34:59.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2015-08-12T07:44:27.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+      <Modified>2015-07-18T23:55:24.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\pages\posts\posts.css">
+      <PackagePath>pages\posts\posts.css</PackagePath>
+      <Modified>2015-07-22T04:37:37.110</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\pages\threads\threads.css">
+      <PackagePath>pages\threads\threads.css</PackagePath>
+      <Modified>2015-07-21T23:06:35.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2015-08-14T05:39:02.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+      <Modified>2015-07-23T02:24:30.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\pages\posts\posts.html">
+      <PackagePath>pages\posts\posts.html</PackagePath>
+      <Modified>2015-08-11T09:33:25.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\pages\threads\threads.html">
+      <PackagePath>pages\threads\threads.html</PackagePath>
+      <Modified>2015-08-19T03:33:50.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T05:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T05:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T05:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T05:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\js\contextmenus.js">
+      <PackagePath>js\contextmenus.js</PackagePath>
+      <Modified>2015-08-19T02:11:50.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\js\data.js">
+      <PackagePath>js\data.js</PackagePath>
+      <Modified>2015-08-19T02:33:30.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2015-08-12T07:04:23.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\js\featherlight.js">
+      <PackagePath>js\featherlight.js</PackagePath>
+      <Modified>2015-07-31T03:06:11.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\js\jquery.js">
+      <PackagePath>js\jquery.js</PackagePath>
+      <Modified>2015-07-15T01:04:14.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2015-07-19T00:34:18.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+      <Modified>2015-07-22T08:41:59.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\pages\posts\posts.js">
+      <PackagePath>pages\posts\posts.js</PackagePath>
+      <Modified>2015-07-28T00:25:06.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\pages\threads\threads.js">
+      <PackagePath>pages\threads\threads.js</PackagePath>
+      <Modified>2015-07-30T23:48:25.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\grayr_000\documents\visual studio 2013\Projects\4chan Blank\4chan Blank\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-08-19T03:17:48.307</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

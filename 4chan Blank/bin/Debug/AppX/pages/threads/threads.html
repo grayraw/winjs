@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>threads</title>
+
+    <link href="threads.css" rel="stylesheet" />
+    <script src="threads.js"></script>
+</head>
+<body>
+
+    <div class="thread-template" data-win-control="WinJS.Binding.Template">
+        <div class="thread-button" >
+            <div class="image-container"  onclick="Globals.lightboxing(this)" data-win-bind="innerHTML: completedThumb">
+                <!--
+                <img data-win-bind="src: img; className: imageLink" />
+                -->
+            </div>
+            <div onclick="Globals.gettingPosts(this)" data-win-bind="className: no">
+                <p data-win-bind="innerText: no"></p>
+                <p data-win-bind="innerText: ext"></p>
+                <p data-win-bind="innerText: now"></p>
+                <p data-win-bind="innerText: filename"></p>
+                <p><strong data-win-bind="innerHTML: sub"></strong><br /><span data-win-bind="innerHTML: com"></span></p>
+                <p>Replies: <span data-win-bind="innerText: replies"></span></p>
+            </div>
+            <!--VIDEO TEST
+            <div class="win-interactive">
+                <div>
+                    <video controls="controls">
+                        <source type="video/webm" src="https://i.4cdn.org/gif/1438274107383.webm"/>
+                    </video>
+                </div>
+            </div>
+            -->
+        </div>
+    </div>
+
+    <video style="max-width: 843.433px; max-height: 474.431px;" src="https://i.4cdn.org/wsg/1439947490107.webm" class="expandedWebm" autoplay="" loop="" controls="" type="video/webm"></video>
+
+    <div class="threads fragment">
+        <header class="page-header" aria-label="Header content" role="banner">
+            <h1 class="titlearea win-type-ellipsis">
+                <button class="back-button" data-win-control="WinJS.UI.BackButton"></button>
+                <span class="pagetitle">Threads</span>
+            </h1>
+        </header>
+
+        <section class="page-section" aria-label="Main content" role="main">
+            <div class="why-do-I-need-this" data-win-control="WinJS.UI.ListView" data-win-options="{
+                    layout: {type: WinJS.UI.ListLayout},
+                    selectionMode: 'none',
+                    itemDataSource: Globals.threads.dataSource,
+                    itemTemplate: select('.thread-template')
+                }">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
